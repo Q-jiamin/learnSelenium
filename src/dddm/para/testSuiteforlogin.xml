@@ -1,0 +1,15 @@
+<suite name ="FireflyAutomation">
+<parameter name ="data" value="\tool\test.properties"/>
+<parameter name ="locator" value="\tool\locators.properties"/>
+	<test name="Practice1" preserve-order="true">
+ 		<classes>
+			<class name="dddm.para.Testjxc1">
+				<method>
+					<include> name = "testLogin"</include>
+					<include> name = "testLogin"</include>
+				</method>
+			</class>
+		</classes>
+		</test>
+
+</suite>
